@@ -1,0 +1,28 @@
+[
+  { // scripts
+    "inputFiles": [
+      "wwwroot/plugins/jquery-3.7.1.js",
+      "wwwroot/scripts/site.js"
+    ],
+    "minify": {
+      "enabled": false,
+      "renameLocals": false,
+      "preserveImportantComments": false
+    },
+    "outputFileName": "wwwroot/bundles/script.min.js",
+    "sourceMap": false
+  },
+  { // styles
+    "inputFiles": [
+      "wwwroot/plugins/bootstrap/bootstrap.css",
+      "wwwroot/styles/site.css"
+    ],
+    "minify": {
+      "enabled": false,
+      "renameLocals": false,
+      "commentMode": "none"
+    },
+    "outputFileName": "wwwroot/bundles/styles.min.css",
+    "sourceMap": false
+  }
+]

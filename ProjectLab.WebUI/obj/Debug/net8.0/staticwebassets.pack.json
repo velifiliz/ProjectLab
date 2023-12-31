@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\WeLi\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
+      "PackagePath": "staticwebassets\\noty.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
+      "PackagePath": "staticwebassets\\toastr.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\bundles\\script.min.js",
+      "PackagePath": "staticwebassets\\bundles\\script.min.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\bundles\\styles.min.css",
+      "PackagePath": "staticwebassets\\bundles\\styles.min.css"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\bootstrap\\bootstrap-side-modals.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\bootstrap-side-modals.css"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\bootstrap\\bootstrap.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\bootstrap\\popper.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\bootstrap\\tooltip.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery-3.7.1.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-3.7.1.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\scripts\\site.js",
+      "PackagePath": "staticwebassets\\scripts\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\styles\\site.css",
+      "PackagePath": "staticwebassets\\styles\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjectLab.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProjectLab.WebUI.props",
+      "PackagePath": "build\\ProjectLab.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectLab.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\ProjectLab.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProjectLab.WebUI.props",
+      "PackagePath": "buildTransitive\\ProjectLab.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
