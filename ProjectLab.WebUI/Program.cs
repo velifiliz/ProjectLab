@@ -1,5 +1,7 @@
 using BundlerMinifier.TagHelpers;
+using Microsoft.EntityFrameworkCore;
 using NToastNotify;
+using ProjectLab.WebUI.Infrastructures;
 using WebMarkupMin.AspNetCore3;
 
 var builder = WebApplication.CreateBuilder(args); 
@@ -15,7 +17,7 @@ var services = builder.Services;
         options.AddSeq(configuration.GetSection("Seq"));
     });
 
-    services.AddControllersWithViews().AddNToastNotifyToastr(new NToastNotify.ToastrOptions
+    services.AddControllersWithViews().AddNToastNotifyToastr(new ToastrOptions
     {
         CloseButton = true,
         PositionClass = ToastPositions.BottomRight
@@ -34,6 +36,13 @@ var services = builder.Services;
         options.AllowCompressionInDevelopmentEnvironment  = false;
 
     }).AddHtmlMinification();
+
+    services.AddScoped<IAlert, Alert>();
+
+    services.AddDbContext<AppDataContext>(options =>
+    {
+        options.UseSqlServer(configuration.GetConnectionString("DefaultConnectionString"));
+    });
 }
 
 ///

@@ -14,10 +14,11 @@
     <PackageReference Include="WebMarkupMin.AspNetCore3" Version="2.15.0" />
     <PackageReference Include="NToastNotify" Version="8.0.0" />
     <PackageReference Include="Seq.Extensions.Logging" Version="6.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
   </ItemGroup>
   
   <ItemGroup>
-    <Folder Include="Common\" />
     <Folder Include="Components\" />
     <Folder Include="wwwroot\assets\images\" />
     <Folder Include="wwwroot\assets\files\" />

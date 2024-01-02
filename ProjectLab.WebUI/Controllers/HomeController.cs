@@ -1,22 +1,25 @@
-﻿using NToastNotify;
+﻿using ProjectLab.WebUI.Infrastructures;
 
 namespace ProjectLab.WebUI.Controllers;
-public class HomeController(IToastNotification toastNotification , ILogger<HomeController> logger) : Controller
+public class HomeController(IAlert alert  ,ILogger<HomeController> logger , AppDataContext context) : Controller
 { 
     public IActionResult Index()
     {
-        toastNotification.AddInfoToastMessage("Merhaba Ben Home Controller İçinden Geldim" , new ToastrOptions
-        {
-            Title = "Bilgi",
-             
-        });
+ 
         var model = new Person
         {
             Id = 1,
-            Firstname = "Veli",
-            Lastname = "Filiz",
+            Firstname = "Deneme",
+            Lastname = "Proje",
         };
         logger.Log(LogLevel.Error , "Burda Bir Hata Meydana Geldi");
+
+        //context.Persons.Add(model);
+        //context.SaveChanges();
+
+        var p = context.Persons.ToList();
+
+
         return View(model);
     }
 
@@ -28,6 +31,7 @@ public class HomeController(IToastNotification toastNotification , ILogger<HomeC
     [HttpPost]
     public string PersonDelete(int Id)
     {
+        alert.Info("Merhaba Ben Server Side Tarafından Gönderilen Bir Alert 'im");
         return $"Silme İşlemi Başarıyla Gereçkleşti Silinen Person Id : {Id}";
     }
 }

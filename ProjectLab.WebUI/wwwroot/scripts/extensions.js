@@ -7,6 +7,21 @@ $.extend({
         }
     },
 
+    alert: {
+        error: function (msg) {
+            toastr.error(msg, 'Hata');
+        },
+        warning: function (msg) {
+            toastr.warning(msg, 'Uyarý');
+        },
+        info: function (msg) {
+            toastr.info(msg, 'Bilgi');
+        },
+        success: function (msg) {
+            toastr.success(msg, 'iþlem Baþarýlý');
+        }
+    },
+
     accept: (params) => {
         var type   = params.alert == true ? "red" : "blue";
         var title  = params.alert == true ? "UYARI" : "BiLGi";
