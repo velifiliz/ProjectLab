@@ -24,4 +24,10 @@ public class HomeController(IToastNotification toastNotification , ILogger<HomeC
     {
         return View();
     }
+
+    [HttpPost]
+    public string PersonDelete(int Id)
+    {
+        return $"Silme İşlemi Başarıyla Gereçkleşti Silinen Person Id : {Id}";
+    }
 }

@@ -377,3 +377,4 @@ C:\Users\WeLi\Desktop\youtube\ProjectLab\ProjectLab.WebUI\bin\Debug\net8.0\tr\Mi
 C:\Users\WeLi\Desktop\youtube\ProjectLab\ProjectLab.WebUI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\WeLi\Desktop\youtube\ProjectLab\ProjectLab.WebUI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\WeLi\Desktop\youtube\ProjectLab\ProjectLab.WebUI\bin\Debug\net8.0\Seq.Extensions.Logging.dll
+C:\Users\WeLi\Desktop\youtube\ProjectLab\ProjectLab.WebUI\obj\Debug\net8.0\ProjectLab.WebUI.sourcelink.json

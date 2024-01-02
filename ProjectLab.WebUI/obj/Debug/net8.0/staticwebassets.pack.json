@@ -45,6 +45,114 @@
       "PackagePath": "staticwebassets\\plugins\\jquery-3.7.1.js"
     },
     {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.confirm\\jquery-confirm.min.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery.confirm\\jquery-confirm.min.css"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.confirm\\jquery-confirm.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.confirm\\jquery-confirm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.mvc.ajax\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.mvc.ajax\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.mvc.ajax\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.mvc.ajax\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\autocomplete.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\autocomplete.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.ui\\jquery-ui.touchpunch.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.ui\\jquery-ui.touchpunch.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.validate\\jquery.validate.extends.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.validate\\jquery.validate.extends.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.validate\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.validate\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.validate\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.validate\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\jquery.validate\\jquery.validate_tr.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.validate\\jquery.validate_tr.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\plugins\\signalr\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\waitme\\img.svg",
+      "PackagePath": "staticwebassets\\plugins\\waitme\\img.svg"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\waitme\\jquery.waitme.css",
+      "PackagePath": "staticwebassets\\plugins\\waitme\\jquery.waitme.css"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\waitme\\jquery.waitme.js",
+      "PackagePath": "staticwebassets\\plugins\\waitme\\jquery.waitme.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\waitme\\jquery.waitme.min.css",
+      "PackagePath": "staticwebassets\\plugins\\waitme\\jquery.waitme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\plugins\\waitme\\jquery.waitme.min.js",
+      "PackagePath": "staticwebassets\\plugins\\waitme\\jquery.waitme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\scripts\\ajax.services.js",
+      "PackagePath": "staticwebassets\\scripts\\ajax.services.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\scripts\\extensions.js",
+      "PackagePath": "staticwebassets\\scripts\\extensions.js"
+    },
+    {
+      "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\scripts\\plugin.extensions.js",
+      "PackagePath": "staticwebassets\\scripts\\plugin.extensions.js"
+    },
+    {
       "Id": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\wwwroot\\scripts\\site.js",
       "PackagePath": "staticwebassets\\scripts\\site.js"
     },

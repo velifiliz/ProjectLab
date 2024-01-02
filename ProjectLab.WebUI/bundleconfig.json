@@ -2,6 +2,17 @@
   { // scripts
     "inputFiles": [
       "wwwroot/plugins/jquery-3.7.1.js",
+      "wwwroot/plugins/jquery.mvc.ajax/jquery.unobtrusive-ajax.js",
+      "wwwroot/plugins/jquery.validate/jquery.validate.js",
+      "wwwroot/plugins/jquery.validate/jquery.validate.extends.js",
+      "wwwroot/plugins/jquery.validate/jquery.validate_tr.js",
+      "wwwroot/plugins/signalr/signalr.min.js",
+      "wwwroot/plugins/jquery.ui/jquery-ui.js",
+      "wwwroot/plugins/jquery.confirm/jquery-confirm.min.js",
+      "wwwroot/plugins/waitme/jquery.waitme.js",
+      "wwwroot/scripts/plugin.extensions.js",
+      "wwwroot/scripts/extensions.js",
+      "wwwroot/scripts/ajax.services.js",
       "wwwroot/scripts/site.js"
     ],
     "minify": {
@@ -14,7 +25,10 @@
   },
   { // styles
     "inputFiles": [
+      "wwwroot/plugins/jquery.ui/jquery-ui.css",
       "wwwroot/plugins/bootstrap/bootstrap.css",
+      "wwwroot/plugins/jquery.confirm/jquery-confirm.min.css",
+      "wwwroot/plugins/waitme/jquery.waitme.css",
       "wwwroot/styles/site.css"
     ],
     "minify": {

@@ -19,7 +19,9 @@ var services = builder.Services;
     {
         CloseButton = true,
         PositionClass = ToastPositions.BottomRight
-    });
+
+    }).AddRazorRuntimeCompilation();
+
     services.AddBundles(options =>
     {
         options.AppendVersion = true;
