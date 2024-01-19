@@ -43,6 +43,8 @@ var services = builder.Services;
     {
         options.UseSqlServer(configuration.GetConnectionString("DefaultConnectionString"));
     });
+
+    services.AddScoped<IAppDataServiceAsync, AppDataServiceAsync>();
 }
 
 ///

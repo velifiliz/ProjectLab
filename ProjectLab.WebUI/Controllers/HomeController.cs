@@ -1,23 +1,22 @@
 ﻿using ProjectLab.WebUI.Infrastructures;
 
 namespace ProjectLab.WebUI.Controllers;
-public class HomeController(IAlert alert  ,ILogger<HomeController> logger , AppDataContext context) : Controller
+public class HomeController(IAlert alert  ,ILogger<HomeController> logger , IAppDataServiceAsync service) : Controller
 { 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
  
         var model = new Person
         {
             Id = 1,
-            Firstname = "Deneme",
-            Lastname = "Proje",
+            Firstname = "sdsdsdsd",
+            Lastname = "sdsdsdsd",
         };
         logger.Log(LogLevel.Error , "Burda Bir Hata Meydana Geldi");
 
-        //context.Persons.Add(model);
-        //context.SaveChanges();
+          var add = await service.RemoveAsync(model,true);
 
-        var p = context.Persons.ToList();
+          var get = await service.GetAllAsync<Person>();
 
 
         return View(model);
