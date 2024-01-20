@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hoTl3N7NkxkuUzhzHyMJQOJNyTWmNag26s8aABirSdcrVfEzoF4N+JViXNr1scaW2gB2gjfy5t1T7QTZRq/9MQ==",
+  "dgSpecHash": "mMhq4TUO4B+FpIijNG8DWXUR9e/oQZkhgh7EmRbbn/iQyMfzSmMgO6sRoMBTRpA8XnZjYQc57+yNITm4dydF7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\WeLi\\Desktop\\youtube\\ProjectLab\\ProjectLab.WebUI\\ProjectLab.WebUI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\WeLi\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\WeLi\\.nuget\\packages\\bundlerminifier.core\\3.2.449\\bundlerminifier.core.3.2.449.nupkg.sha512",
     "C:\\Users\\WeLi\\.nuget\\packages\\bundlerminifier.taghelpers\\3.2.449\\bundlerminifier.taghelpers.3.2.449.nupkg.sha512",
+    "C:\\Users\\WeLi\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
     "C:\\Users\\WeLi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\WeLi\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\WeLi\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

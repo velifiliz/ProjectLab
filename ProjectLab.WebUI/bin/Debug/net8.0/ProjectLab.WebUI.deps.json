@@ -39,6 +39,7 @@
           "BuildBundlerMinifier": "3.2.449",
           "BundlerMinifier.Core": "3.2.449",
           "BundlerMinifier.TagHelpers": "3.2.449",
+          "Dapper": "2.1.24",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
@@ -433,6 +434,17 @@
         },
         "compile": {
           "lib/netcoreapp3.1/BundlerMinifier.TagHelpers.dll": {}
+        }
+      },
+      "Dapper/2.1.24": {
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.24.50284"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Dapper.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -4267,6 +4279,13 @@
       "sha512": "sha512-ejug3/NW0r4QxaBHahmCBSttRziSk/Nciyo3YBbxREH1eRllME0ltlTk0OKu4Gloj3Nas/EGrnDjKI7+ZID0mA==",
       "path": "bundlerminifier.taghelpers/3.2.449",
       "hashPath": "bundlerminifier.taghelpers.3.2.449.nupkg.sha512"
+    },
+    "Dapper/2.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/2t2vsdJyZRsk13AsWigZpsuFvEwK+o3v862cEULXoww905gyKhJFSuwmZI/4Ui9COX9ZCFCI09UHyH4wVYl3A==",
+      "path": "dapper/2.1.24",
+      "hashPath": "dapper.2.1.24.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

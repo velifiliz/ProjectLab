@@ -5,21 +5,11 @@ public class HomeController(IAlert alert  ,ILogger<HomeController> logger , IApp
 { 
     public async Task<IActionResult> Index()
     {
- 
-        var model = new Person
-        {
-            Id = 1,
-            Firstname = "sdsdsdsd",
-            Lastname = "sdsdsdsd",
-        };
-        logger.Log(LogLevel.Error , "Burda Bir Hata Meydana Geldi");
+         
+         var get = await service.AsSqlGetAsync<Person>("SELECT * FROM Person WHERE Id = @Id" , new {Id =  10});
+         var getAll = await service.AsSqlGetAllAsync<Person>("SELECT * FROM Person");
 
-          var add = await service.RemoveAsync(model,true);
-
-          var get = await service.GetAllAsync<Person>();
-
-
-        return View(model);
+        return View();
     }
 
     public IActionResult About()

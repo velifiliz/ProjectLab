@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectLab.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19afa60e12c79ed60eace8c86ca1bec2b9d27d81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfc02729effe57a4cc187f8535536fd50c1e9486")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectLab.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectLab.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

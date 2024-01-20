@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Dapper;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 namespace ProjectLab.WebUI.Infrastructures;
-
 public interface IAppDataServiceAsync
 {
     Task<bool> AddOrUpdateAsync<T>(T entity, CancellationToken cancellationToken = default) where T : BaseEntity;
@@ -9,6 +9,10 @@ public interface IAppDataServiceAsync
     Task<List<T>> GetAllAsync<T>(CancellationToken cancellationToken = default) where T : BaseEntity;
     Task<T> GetByIdAsync<T>(int Id, CancellationToken cancellationToken = default) where T : BaseEntity;
     Task<bool> RemoveAsync<T>(T entity, bool Deleted = false, CancellationToken cancellationToken = default) where T : BaseEntity;
+
+    Task<T> AsSqlGetAsync<T>(string sql, object parameter = null) where T : BaseEntity;
+
+    Task<IEnumerable<T>> AsSqlGetAllAsync<T>(string sql, object parameter = null) where T : BaseEntity;
 }
 
 public class AppDataServiceAsync(AppDataContext context) : IAppDataServiceAsync
@@ -59,5 +63,25 @@ public class AppDataServiceAsync(AppDataContext context) : IAppDataServiceAsync
         }
 
         return await context.SaveChangesAsync(cancellationToken) > 0;
+    }
+
+    public async Task<T> AsSqlGetAsync<T>(string sql , object parameter = null) where T : BaseEntity
+    {
+        return await context.Database.GetDbConnection().QueryFirstOrDefaultAsync<T>(
+            
+            sql : sql,
+            param : parameter,
+            commandType : System.Data.CommandType.Text
+       );
+    }
+
+    public async Task<IEnumerable<T>> AsSqlGetAllAsync<T>(string sql, object parameter = null) where T : BaseEntity
+    {
+        return await context.Database.GetDbConnection().QueryAsync<T>(
+
+            sql: sql,
+            param: parameter,
+            commandType: System.Data.CommandType.Text
+        );
     }
 }

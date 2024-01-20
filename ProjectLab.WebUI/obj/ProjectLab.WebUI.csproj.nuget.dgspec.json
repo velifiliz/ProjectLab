@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[3.2.449, )"
             },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[8.0.0, )"
